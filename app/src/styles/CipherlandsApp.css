@@ -1,0 +1,26 @@
+.cipherlands-app {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #f1f5f9 0%, #e2e8f0 100%);
+  padding-bottom: 48px;
+}
+
+.cipherlands-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 24px 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+}
+
+.cipherlands-panels {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+@media (max-width: 768px) {
+  .cipherlands-main {
+    padding: 24px 16px 0;
+  }
+}

@@ -1,0 +1,109 @@
+.panel-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.panel-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.panel-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0;
+}
+
+.panel-subtitle {
+  margin: 0;
+  font-size: 13px;
+  color: #64748b;
+}
+
+.panel-status dl {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.panel-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #1f2937;
+}
+
+.panel-row dt {
+  font-weight: 600;
+  color: #475569;
+}
+
+.panel-row dd {
+  margin: 0;
+  font-weight: 600;
+}
+
+.panel-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.panel-button {
+  border: none;
+  border-radius: 12px;
+  padding: 12px 16px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+  background: rgba(148, 163, 184, 0.1);
+  color: #1f2937;
+}
+
+.panel-button:hover:enabled {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.1);
+}
+
+.panel-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+  box-shadow: none;
+}
+
+.panel-button.primary {
+  background: linear-gradient(120deg, #2563eb, #3b82f6);
+  color: #ffffff;
+}
+
+.panel-button.subtle {
+  background: rgba(59, 130, 246, 0.08);
+  color: #1d4ed8;
+}
+
+.panel-message {
+  margin: 0;
+  font-size: 13px;
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+
+.panel-message.success {
+  background: rgba(59, 130, 246, 0.1);
+  color: #1d4ed8;
+}
+
+.panel-message.error {
+  background: rgba(239, 68, 68, 0.1);
+  color: #b91c1c;
+}
