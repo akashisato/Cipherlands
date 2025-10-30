@@ -1,5 +1,5 @@
 // Cipherlands contract deployed on Sepolia (replace with actual address after deployment)
-export const CONTRACT_ADDRESS = '0x0000000000000000000000000000000000000000';
+export const CONTRACT_ADDRESS = '0x511d2E802C7A86Ad1f6cD6b38F5098559Cb988Cd';
 
 // Generated ABI copied from deployments/sepolia/Cipherlands.json
 export const CONTRACT_ABI = [
